@@ -22,26 +22,16 @@ public class MuseumsFragment extends Fragment {
 
         // Create a list of museums
         final ArrayList<sight> sights = new ArrayList<>();
-        sights.add(new sight("Zwack Unicum Múzeum, Látogatóközpont és Mintabolt", "Dandár utca 1. / Dandár street 1.\n" +
-                "Budapest 1095"));
-        sights.add(new sight("Flippermúzeum - Budapest Pinball Museum", "Radnóti Miklós utca 18.\n" +
-                "Budapest 1137"));
-        sights.add(new sight("Magyar Nemzeti Múzeum", "Múzeum körút 14-16.\n" +
-                "Budapest 1088"));
-        sights.add(new sight("Szépművészeti Múzeum", "Dózsa György út 41.\n" +
-                "Budapest 1146"));
-        sights.add(new sight("Néprajzi Múzeum", "Kossuth Lajos tér 12.\n" +
-                "Budapest 1055"));
-        sights.add(new sight("Iparművészeti Múzeum", "Üllői út 33-37.\n" +
-                "Budapest 1091"));
-        sights.add(new sight("Ludwig Múzeum", "Komor Marcell u. 1.\n" +
-                "Budapest 1095"));
-        sights.add(new sight("Magyar Vasúttörténeti Park / Hungarian Railway Museum", "Tatai út 95.\n" +
-                "Budapest 1142"));
-        sights.add(new sight("Aquincumi Múzeum", "Szentendrei út 135.\n" +
-                "Budapest 1031"));
-        sights.add(new sight("Petőfi Irodalmi Múzeum", "Károlyi utca 16.\n" +
-                "Budapest 1053"));
+        sights.add(new sight(R.string.name_zwack, R.string.address_zwack));
+        sights.add(new sight(R.string.name_pinball, R.string.address_pinball));
+        sights.add(new sight(R.string.name_nemzeti, R.string.address_nemzeti));
+        sights.add(new sight(R.string.name_szepmuveszeti, R.string.address_szepmuveszeti));
+        sights.add(new sight(R.string.name_neprajzi, R.string.address_neprajzi));
+        sights.add(new sight(R.string.name_ipar, R.string.address_ipar));
+        sights.add(new sight(R.string.name_ludwig, R.string.address_ludwig));
+        sights.add(new sight(R.string.name_railway, R.string.address_railway));
+        sights.add(new sight(R.string.name_aquincum, R.string.address_aquincum));
+        sights.add(new sight(R.string.name_petofi, R.string.address_petofi));
 
         final sightsAdapter adapter = new sightsAdapter(getActivity(), sights, R.color.colorSights);
 

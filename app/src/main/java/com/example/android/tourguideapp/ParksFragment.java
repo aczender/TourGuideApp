@@ -22,11 +22,10 @@ public class ParksFragment extends Fragment {
 
         // Create a list of parks
         final ArrayList<sight> sights = new ArrayList<>();
-        sights.add(new sight("Városliget", "Kós Károly sétány\n" +
-                "Budapest 1146"));
-        sights.add(new sight("Margit-sziget", "Budapest"));
-        sights.add(new sight("Népliget", "Budapest 1091"));
-        sights.add(new sight("Városmajor", "Budapest 1122"));
+        sights.add(new sight(R.string.name_varosliget, R.string.address_varosliget));
+        sights.add(new sight(R.string.name_margit, R.string.address_margit));
+        sights.add(new sight(R.string.name_nepliget, R.string.address_nepliget));
+        sights.add(new sight(R.string.name_varosmajor, R.string.address_varosmajor));
 
         final sightsAdapter adapter = new sightsAdapter(getActivity(), sights, R.color.colorSights);
 

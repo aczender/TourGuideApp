@@ -6,16 +6,82 @@
     <string name="name_text">Name</string>
 
     <!-- Categories -->
-    <string name="category1">Restaurants</string>
-    <string name="category2">Parks</string>
-    <string name="category3">Museums</string>
-    <string name="category4">Cafes</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="category_cafes">Cafes</string>
     <string name="category_museums">Museums</string>
     <string name="category_parks">Parks</string>
     <string name="category_restaurants">Restaurants</string>
+
+    <!-- name of sights -->
+    <string name="name_green">My Green Cup</string>
+    <string name="name_panini">Cafe Panini</string>
+    <string name="name_shot">Double Shot</string>
+    <string name="name_bubo">Bubo</string>
+
+    <string name="name_zwack">Zwack Unicum Múzeum, Látogatóközpont és Mintabolt</string>
+    <string name="name_pinball">Flippermúzeum - Budapest Pinball Museum</string>
+    <string name="name_nemzeti">Magyar Nemzeti Múzeum</string>
+    <string name="name_szepmuveszeti">Szépművészeti Múzeum</string>
+    <string name="name_neprajzi">Néprajzi Múzeum</string>
+    <string name="name_ipar">Iparművészeti Múzeum</string>
+    <string name="name_ludwig">Ludwig Múzeum</string>
+    <string name="name_railway">Magyar Vasúttörténeti Park / Hungarian Railway Museum</string>
+    <string name="name_aquincum">Aquincumi Múzeum</string>
+    <string name="name_petofi">Petőfi Irodalmi Múzeum</string>
+
+    <string name="name_varosliget">Városliget</string>
+    <string name="name_margit">Margit-sziget</string>
+    <string name="name_nepliget">Népliget</string>
+    <string name="name_varosmajor">Városmajor</string>
+
+    <string name="name_dallas">Dallas Étterem</string>
+    <string name="name_trofea">Trófea Grill Étterem Király utca</string>
+    <string name="name_menza">Menza Étterem és Kávézó</string>
+    <string name="name_kakukk">Újpesti Kakukk Vendéglő</string>
+
+    <!--address of sights -->
+    <string name="address_green">Pozsonyi ùt 15.
+        Budapest 1137</string>
+    <string name="address_panini">Radnóti Miklós u. 45
+        Budapest 1137</string>
+    <string name="address_shot">Pozsonyi út 16
+        Budapest 1137</string>
+    <string name="address_bubo">Jászai Mari tér 3.
+        Budapest 1137</string>
+
+    <string name="address_zwack">Dandár utca 1. / Dandár street 1.
+        Budapest 1095</string>
+    <string name="address_pinball">Radnóti Miklós utca 18.
+        Budapest 1137</string>
+    <string name="address_nemzeti">Múzeum körút 14-16.
+        Budapest 1088</string>
+    <string name="address_szepmuveszeti">Dózsa György út 41.
+        Budapest 1146</string>
+    <string name="address_neprajzi">Kossuth Lajos tér 12.
+        Budapest 1055</string>
+    <string name="address_ipar">Üllői út 33-37.
+        Budapest 1091</string>
+    <string name="address_ludwig">Komor Marcell u. 1.
+        Budapest 1095</string>
+    <string name="address_railway">Tatai út 95.
+        Budapest 1142</string>
+    <string name="address_aquincum">Szentendrei út 135.
+        Budapest 1031</string>
+    <string name="address_petofi">Károlyi utca 16.
+        Budapest 1053</string>
+
+    <string name="address_varosliget">Kós Károly sétány
+        Budapest 1146</string>
+    <string name="address_margit">Budapest</string>
+    <string name="address_nepliget">Budapest 1091</string>
+    <string name="address_varosmajor">Budapest 1122</string>
+
+    <string name="address_dallas">Zay utca 5
+        Budapest 1037</string>
+    <string name="address_trofea">Király utca 30-32.
+        Budapest 1061</string>
+    <string name="address_menza">Liszt Ferenc tér 2
+        Budapest 1061</string>
+    <string name="address_kakukk">Nádor u. 31.
+        Budapest 1046</string>
 
 </resources>

@@ -22,14 +22,10 @@ public class RestaurantsFragment extends Fragment {
 
         // Create a list of restaurants
         final ArrayList<sight> sights = new ArrayList<>();
-        sights.add(new sight("Dallas Étterem", "Zay utca 5\n" +
-                "Budapest 1037"));
-        sights.add(new sight("Trófea Grill Étterem Király utca", "Király utca 30-32.\n" +
-                "Budapest 1061"));
-        sights.add(new sight("Menza Étterem és Kávézó", "Liszt Ferenc tér 2\n" +
-                "Budapest 1061"));
-        sights.add(new sight("Újpesti Kakukk Vendéglő", "Nádor u. 31.\n" +
-                "Budapest 1046"));
+        sights.add(new sight(R.string.name_dallas, R.string.address_dallas, R.drawable.dallas));
+        sights.add(new sight(R.string.name_trofea, R.string.address_trofea, R.drawable.trofea));
+        sights.add(new sight(R.string.name_menza, R.string.address_menza, R.drawable.menza));
+        sights.add(new sight(R.string.name_kakukk, R.string.address_kakukk, R.drawable.kakukk));
 
         final sightsAdapter adapter = new sightsAdapter(getActivity(), sights, R.color.colorSights);
 

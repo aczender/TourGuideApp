@@ -23,14 +23,10 @@ public class CafesFragment extends Fragment {
 
         // Create a list of cafes
         final ArrayList<sight> sights = new ArrayList<>();
-        sights.add(new sight("My Green Cup", "Pozsonyi ùt 15.\n" +
-                "Budapest 1137", R.drawable.my_green));
-        sights.add(new sight("Cafe Panini", "Radnóti Miklós u. 45/n" +
-                "Budapest 1137", R.drawable.cafe_panini));
-        sights.add(new sight("Double Shot", "Pozsonyi út 16\n" +
-                "Budapest 1137", R.drawable.double_shot));
-        sights.add(new sight("Bubo", "Jászai Mari tér 3.\n" +
-                "Budapest 1137", R.drawable.bubo_cafe));
+        sights.add(new sight(R.string.name_green, R.string.address_green, R.drawable.my_green));
+        sights.add(new sight(R.string.name_panini, R.string.address_panini, R.drawable.cafe_panini));
+        sights.add(new sight(R.string.name_shot, R.string.address_shot, R.drawable.double_shot));
+        sights.add(new sight(R.string.name_bubo, R.string.address_bubo, R.drawable.bubo_cafe));
 
         final sightsAdapter adapter = new sightsAdapter(getActivity(), sights, R.color.colorSights);
 
